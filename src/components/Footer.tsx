@@ -54,7 +54,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} DesignStudio. All rights reserved.
+          © {new Date().getFullYear()} Festiva. All rights reserved.
         </div>
       </div>
     </footer>
