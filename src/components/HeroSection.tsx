@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Sparkles, Palette, Shapes } from 'lucide-react';
@@ -35,7 +35,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-white via-gray-50 to-white">
+    <div className="relative min-h-[85vh] overflow-hidden bg-gradient-to-br from-white via-gray-50 to-white">
       <BackgroundShapes />
       
       <motion.div
@@ -43,7 +43,7 @@ const HeroSection = () => {
         initial="hidden"
         animate={inView ? 'visible' : 'hidden'}
         variants={containerVariants}
-        className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8"
+        className="relative z-10 flex flex-col items-center justify-center min-h-[85vh] px-4 sm:px-6 lg:px-8"
       >
         <motion.div
           variants={itemVariants}

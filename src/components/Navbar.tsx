@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
-import { Palette } from 'lucide-react';
+// import { Palette } from 'lucide-react';
+import logo from "./logo.png"
 
 const Navbar = () => {
   return (
@@ -12,11 +13,11 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center space-x-2"
         >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-500 to-blue-500 flex items-center justify-center">
+          {/* <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-red-500 to-blue-500 flex items-center justify-center">
             <Palette className="w-6 h-6 text-white" />
-          </div>
+          </div> */}
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-blue-600">
-            DesignStudio
+          <img src={logo} alt="Logo" width={100} height={100} />
           </span>
         </motion.div>
 

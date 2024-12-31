@@ -8,6 +8,7 @@ import {
   Linkedin,
   Github
 } from 'lucide-react';
+import logo from "./logo.png"
 
 const Footer = () => {
   const socialLinks = [
@@ -28,7 +29,7 @@ const Footer = () => {
 /              <Palette className="w-6 h-6 text-white" />
             </div> */}
             <span className="ml-3 text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-blue-600">
-              <Image src="./logo.png" alt="Logo" width={100} height={100} />
+              <img src={logo} alt="Logo" width={100} height={100} />
             </span>
           </div>
 

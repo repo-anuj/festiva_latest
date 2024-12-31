@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { 
   Palette, 
   Shapes, 
-  Sparkles, 
+  // Sparkles, 
   Globe, 
   Smartphone, 
   Code2, 
